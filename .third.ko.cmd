@@ -1,0 +1,1 @@
+cmd_/home/vagrant/HW1/110703022/src/third.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -z noexecstack  -T ./scripts/module-common.lds --build-id  -o /home/vagrant/HW1/110703022/src/third.ko /home/vagrant/HW1/110703022/src/third.o /home/vagrant/HW1/110703022/src/third.mod.o ;  true
